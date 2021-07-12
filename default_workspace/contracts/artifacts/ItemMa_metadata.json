@@ -1,0 +1,44 @@
+{
+	"compiler": {
+		"version": "0.6.12+commit.27d51765"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/eventtrigger_lecture.sol": "ItemMa"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/eventtrigger_lecture.sol": {
+			"keccak256": "0xca26cf8ece38c399d67c222056dc89557b01ab841ba5d747add012a86a75cb6c",
+			"urls": [
+				"bzz-raw://0206911c10439704d8a87fff2dcef01799873d6fba3640ac0bd9cb1de3a49b76",
+				"dweb:/ipfs/QmR2ZA9QWNYVMU6qssu4j38i3WdcAaDVLHww5kQgv5CC8o"
+			]
+		}
+	},
+	"version": 1
+}

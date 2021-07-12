@@ -1,0 +1,101 @@
+{
+	"compiler": {
+		"version": "0.8.4+commit.c7e474f2"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_to",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_amount",
+						"type": "uint256"
+					}
+				],
+				"name": "sendToken",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "tokenBalance",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/artifacts/Libraries.sol": "LibrariesExample"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/artifacts/Libraries.sol": {
+			"keccak256": "0xaa1a063331ad5361fc071c6f8f4265769f1ba7a093bf18b908849cae95794f61",
+			"urls": [
+				"bzz-raw://b2b53a61dac72f37190371ea203e557b8ab62b433f6547776db6d90c497c1f70",
+				"dweb:/ipfs/QmWuwc3FebDXiJrqkMjWCVNWa2yrABMZng58AzaH7SmTCE"
+			]
+		},
+		"https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/utils/math/SafeMath.sol": {
+			"keccak256": "0x807ee684a7a893654d9d454c8c27b1c8994891402c5bfb6864c62edcb1425b1c",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://3a3e1f8740258029d87d5ffb8c19e317f4ef1364a4dd458dc595cdfbaffc0e5a",
+				"dweb:/ipfs/QmR4F6QVSiYpjYwerB8yvcicwxECphcrGrmS3eX2EXizip"
+			]
+		}
+	},
+	"version": 1
+}
